@@ -3,38 +3,39 @@
 }
 
 body {
-    margin: 0;
+    
+    padding: 0;
 }
 
 .container {
 
 
     background-color: gray;
-    margin: 10px;
-    margin-bottom: 100px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 20px;
-    max-height: 100vh;
+    height: 100vh;
     
 }
 
 .hechizos {
     background-color: aquamarine;
-    width: 100%;
+    flex: 1;
+
 }
 
 .esbirros {
     background-color: rgb(156, 110, 9);
-    width: 100%;
+    flex: 1;
 }
 
 .imagen {
     display: flex;
     gap: 10px;
+    justify-content: space-evenly;
 }
 .imagen img {
-    width: 33.33%;
+    width: 16.66%;
     height: auto;
     object-fit: contain;
 }
